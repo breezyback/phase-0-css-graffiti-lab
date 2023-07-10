@@ -1,1 +1,25 @@
 /* write your override styles here */
+#wall .tag1 {
+    z-index: 7;
+    display: none;
+}
+
+#wall #tag2 {
+    display: none;
+    z-index: 5;
+}
+
+#wall #tag3 {
+    display: none;
+    z-index: 5;
+}
+
+#wall .parent #tag4 {
+    display: none;
+    z-index: 6;
+}
+
+#wall .parent #tag6 {
+    display: none;
+    z-index: 1;
+}
